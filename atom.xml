@@ -3,16 +3,16 @@
     <title><![CDATA[!&amp;#]]></title>
     <link href="http://bangpound.github.io/atom.xml" rel="self"/>
     <link href="http://bangpound.github.io/"/>
-    <updated>2014-01-15T00:33:53+00:00</updated>
+    <updated>2014-01-15T00:36:48+00:00</updated>
     <id>http://bangpound.github.io/</id>
             <author>
             <name><![CDATA[Benjamin Doherty]]></name>                    </author>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[Drufony]]></title>
-            <link href="http://bangpound.github.io/blog/2014/01/14/first"/>
+            <link href="http://bangpound.github.io/blog/2014/01/14/drufony"/>
             <updated>2014-01-14T00:00:00+00:00</updated>
-            <id>http://bangpound.github.io/blog/2014/01/14/first</id>
+            <id>http://bangpound.github.io/blog/2014/01/14/drufony</id>
             <content type="html"><![CDATA[<blockquote class="twitter-tweet" lang="en"><p>Drufony is <a href="https://twitter.com/search?q=%23Drupal&amp;src=hash">#Drupal</a> 7 running in the <a href="https://twitter.com/search?q=%23Symfony&amp;src=hash">#Symfony</a> 2 framework. <a href="http://t.co/wo2KjvUCQV">http://t.co/wo2KjvUCQV</a></p>&mdash; Drufony (@Drufony) <a href="https://twitter.com/Drufony/statuses/422627353399808001">January 13, 2014</a></blockquote>
 
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
