@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[!&amp;#]]></title>
+    <link href="/atom.xml" rel="self"/>
+    <link href="/"/>
+    <updated>2014-01-15T00:30:21+00:00</updated>
+    <id>/</id>
+            <author>
+            <name><![CDATA[Benjamin Doherty]]></name>                    </author>
+        <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Drufony]]></title>
+            <link href="/blog/2014/01/14/first"/>
+            <updated>2014-01-14T00:00:00+00:00</updated>
+            <id>/blog/2014/01/14/first</id>
+            <content type="html"><![CDATA[<blockquote class="twitter-tweet" lang="en"><p>Drufony is <a href="https://twitter.com/search?q=%23Drupal&amp;src=hash">#Drupal</a> 7 running in the <a href="https://twitter.com/search?q=%23Symfony&amp;src=hash">#Symfony</a> 2 framework. <a href="http://t.co/wo2KjvUCQV">http://t.co/wo2KjvUCQV</a></p>&mdash; Drufony (@Drufony) <a href="https://twitter.com/Drufony/statuses/422627353399808001">January 13, 2014</a></blockquote>
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+]]></content>
+        </entry>
+    </feed>
