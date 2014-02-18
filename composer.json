@@ -16,9 +16,11 @@
         }
     ],
     "require": {
+        "sculpin/sculpin": "2.0.*@dev",
         "mavimo/sculpin-editor-bundle": "@dev",
         "bangpound/sculpin-oembed-bundle": "@dev"
     },
+    "minimum-stability": "dev",
     "config": {
         "component-dir": "source/components"
     }
