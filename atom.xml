@@ -3,7 +3,7 @@
     <title><![CDATA[!&amp;#]]></title>
     <link href="http://bangpound.github.io/atom.xml" rel="self"/>
     <link href="http://bangpound.github.io/"/>
-    <updated>2014-02-10T17:14:19+00:00</updated>
+    <updated>2014-02-18T08:40:00+00:00</updated>
     <id>http://bangpound.github.io/</id>
             <author>
             <name><![CDATA[Benjamin Doherty]]></name>                    </author>
@@ -46,9 +46,7 @@
             <link href="http://bangpound.github.io/blog/2014/01/19/Pattern-{P}^3"/>
             <updated>2014-01-19T00:00:00+00:00</updated>
             <id>http://bangpound.github.io/blog/2014/01/19/Pattern-{P}^3</id>
-            <content type="html"><![CDATA[<p><style>.embed-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style></p>
-
-<div class='embed-container'><iframe src='https://player.vimeo.com/video/84217154' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+            <content type="html"><![CDATA[<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=http%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F84217154&src_secure=1&url=http%3A%2F%2Fvimeo.com%2F84217154&image=http%3A%2F%2Fb.vimeocdn.com%2Fts%2F460%2F991%2F460991058_1280.jpg&type=text%2Fhtml&schema=vimeo" width="700" height="394" scrolling="no" frameborder="0" allowfullscreen></iframe>
 
 <blockquote>
   <p>PARAMETRIC&#95;PALESTINIAN&#95;PATTERN {P}³</p>

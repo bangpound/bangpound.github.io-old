@@ -1,17 +1,31 @@
-<h1><a href="http://getbootstrap.com">Bootstrap</a> <a href="http://travis-ci.org/twbs/bootstrap"><img src="https://secure.travis-ci.org/twbs/bootstrap.png" alt="Build Status" /></a> <a href="https://david-dm.org/twbs/bootstrap#info=devDependencies"><img src="https://david-dm.org/twbs/bootstrap/dev-status.png" alt="devDependency Status" /></a></h1>
+<h1><a href="http://getbootstrap.com">Bootstrap</a> <a href="http://badge.fury.io/bo/bootstrap"><img src="https://badge.fury.io/bo/bootstrap.png" alt="Bower version" /></a> <a href="http://travis-ci.org/twbs/bootstrap"><img src="https://secure.travis-ci.org/twbs/bootstrap.png" alt="Build Status" /></a> <a href="https://david-dm.org/twbs/bootstrap#info=devDependencies"><img src="https://david-dm.org/twbs/bootstrap/dev-status.png?theme=shields.io" alt="devDependency Status" /></a></h1>
 
 <p><a href="https://saucelabs.com/u/bootstrap"><img src="https://saucelabs.com/browser-matrix/bootstrap.svg" alt="Selenium Test Status" /></a></p>
 
-<p>Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development, created and maintained by <a href="http://twitter.com/mdo">Mark Otto</a> and <a href="http://twitter.com/fat">Jacob Thornton</a>.</p>
+<p>Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development, created by <a href="http://twitter.com/mdo">Mark Otto</a> and <a href="http://twitter.com/fat">Jacob Thornton</a>, and maintained by the <a href="https://github.com/twbs?tab=members">core team</a> with the massive support and involvement of the community.</p>
 
 <p>To get started, check out <a href="http://getbootstrap.com">http://getbootstrap.com</a>!</p>
+
+<h2>Table of contents</h2>
+
+<ul>
+<li><a href="#quick-start">Quick start</a></li>
+<li><a href="#bugs-and-feature-requests">Bugs and feature requests</a></li>
+<li><a href="#documentation">Documentation</a></li>
+<li><a href="#compiling-css-and-javascript">Compiling CSS and JavaScript</a></li>
+<li><a href="#contributing">Contributing</a></li>
+<li><a href="#community">Community</a></li>
+<li><a href="#versioning">Versioning</a></li>
+<li><a href="#authors">Authors</a></li>
+<li><a href="#copyright-and-license">Copyright and license</a></li>
+</ul>
 
 <h2>Quick start</h2>
 
 <p>Three quick start options are available:</p>
 
 <ul>
-<li><a href="https://github.com/twbs/bootstrap/archive/v3.0.3.zip">Download the latest release</a>.</li>
+<li><a href="https://github.com/twbs/bootstrap/archive/v3.1.1.zip">Download the latest release</a>.</li>
 <li>Clone the repo: <code>git clone https://github.com/twbs/bootstrap.git</code>.</li>
 <li>Install with <a href="http://bower.io">Bower</a>: <code>bower install bootstrap</code>.</li>
 </ul>
@@ -41,9 +55,7 @@
 
 <h2>Bugs and feature requests</h2>
 
-<p>Have a bug or a feature request? <a href="https://github.com/twbs/bootstrap/issues">Please open a new issue</a>. Before opening any issue, please search for existing issues and read the <a href="https://github.com/necolas/issue-guidelines">Issue Guidelines</a>, written by <a href="https://github.com/necolas/">Nicolas Gallagher</a>.</p>
-
-<p>You may use <a href="http://jsbin.com/aKiCIDO/1/edit">this JS Bin</a> as a template for your bug reports.</p>
+<p>Have a bug or a feature request? Please first read the <a href="https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md#using-the-issue-tracker">issue guidelines</a> and search for existing and closed issues. If your problem or idea is not addressed yet, <a href="https://github.com/twbs/bootstrap/issues/new">please open a new issue</a>.</p>
 
 <h2>Documentation</h2>
 
@@ -52,11 +64,15 @@
 <h3>Running documentation locally</h3>
 
 <ol>
-<li>If necessary, <a href="http://jekyllrb.com/docs/installation">install Jekyll</a> (requires v1.x).</li>
+<li>If necessary, <a href="http://jekyllrb.com/docs/installation">install Jekyll</a> (requires v1.x).
+
+<ul>
+<li><strong>Windows users:</strong> Read <a href="https://github.com/juthilo/run-jekyll-on-windows/">this unofficial guide</a> to get Jekyll up and running without problems. We use Pygments for syntax highlighting, so make sure to read the sections on installing Python and Pygments.</li>
+</ul></li>
 <li>From the root <code>/bootstrap</code> directory, run <code>jekyll serve</code> in the command line.
 
 <ul>
-<li><strong>Windows users:</strong> run <code>chcp 65001</code> first to change the command prompt's character encoding (<a href="http://en.wikipedia.org/wiki/Windows_code_page">code page</a>) to UTF-8 so Jekyll runs without errors.</li>
+<li><strong>Windows users:</strong> While we use Jekyll's <code>encoding</code> setting, you might still need to change the command prompt's character encoding (<a href="http://en.wikipedia.org/wiki/Windows_code_page">code page</a>) to UTF-8 so Jekyll runs without errors. For Ruby 2.0.0, run <code>chcp 65001</code> first. For Ruby 1.9.3, you can alternatively do <code>SET LANG=en_EN.UTF-8</code>.</li>
 </ul></li>
 <li>Open <a href="http://localhost:9001">http://localhost:9001</a> in your browser, and voilà.</li>
 </ol>
@@ -79,7 +95,7 @@
 
 <ol>
 <li>Install <code>grunt-cli</code> globally with <code>npm install -g grunt-cli</code>.</li>
-<li>Navigate to the root <code>/bootstrap</code> directory, then run <code>npm install</code>. npm will look at <a href="package.json">package.json</a> and automatically install the necessary local dependencies listed there.</li>
+<li>Navigate to the root <code>/bootstrap</code> directory, then run <code>npm install</code>. npm will look at <a href="https://github.com/twbs/bootstrap/blob/master/package.json">package.json</a> and automatically install the necessary local dependencies listed there.</li>
 </ol>
 
 <p>When completed, you'll be able to run the various Grunt commands provided from the command line.</p>
@@ -90,11 +106,11 @@
 
 <h4>Build - <code>grunt</code></h4>
 
-<p>Run <code>grunt</code> to run tests locally and compile the CSS and JavaScript into <code>/dist</code>. <strong>Uses <a href="http://twitter.github.io/recess/">recess</a> and <a href="http://lisperator.net/uglifyjs/">UglifyJS</a>.</strong></p>
+<p>Run <code>grunt</code> to run tests locally and compile the CSS and JavaScript into <code>/dist</code>. <strong>Uses <a href="http://lesscss.org/">Less</a> and <a href="http://lisperator.net/uglifyjs/">UglifyJS</a>.</strong></p>
 
 <h4>Only compile CSS and JavaScript - <code>grunt dist</code></h4>
 
-<p><code>grunt dist</code> creates the <code>/dist</code> directory with compiled files. <strong>Uses <a href="http://twitter.github.io/recess/">recess</a> and <a href="http://lisperator.net/uglifyjs/">UglifyJS</a>.</strong></p>
+<p><code>grunt dist</code> creates the <code>/dist</code> directory with compiled files. <strong>Uses <a href="http://lesscss.org/">Less</a> and <a href="http://lisperator.net/uglifyjs/">UglifyJS</a>.</strong></p>
 
 <h4>Tests - <code>grunt test</code></h4>
 
@@ -112,11 +128,9 @@
 
 <p>Please read through our <a href="https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md">contributing guidelines</a>. Included are directions for opening issues, coding standards, and notes on development.</p>
 
-<p>More over, if your pull request contains JavaScript patches or features, you must include relevant unit tests. All HTML and CSS should conform to the <a href="http://github.com/mdo/code-guide">Code Guide</a>, maintained by <a href="http://github.com/mdo">Mark Otto</a>.</p>
+<p>Moreover, if your pull request contains JavaScript patches or features, you must include relevant unit tests. All HTML and CSS should conform to the <a href="http://github.com/mdo/code-guide">Code Guide</a>, maintained by <a href="http://github.com/mdo">Mark Otto</a>.</p>
 
-<p>Editor preferences are available in the <a href=".editorconfig">editor config</a> for easy use in common text editors. Read more and download plugins at <a href="http://editorconfig.org">http://editorconfig.org</a>.</p>
-
-<p>With v3.1, we're moving from the Apache 2 to the MIT license for the Bootstrap code (not the docs). Please see the <a href="https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md">contributing guidelines</a> for more information.</p>
+<p>Editor preferences are available in the <a href="https://github.com/twbs/bootstrap/blob/master/.editorconfig">editor config</a> for easy use in common text editors. Read more and download plugins at <a href="http://editorconfig.org">http://editorconfig.org</a>.</p>
 
 <h2>Community</h2>
 
@@ -125,13 +139,13 @@
 <ul>
 <li>Follow <a href="http://twitter.com/twbootstrap">@twbootstrap on Twitter</a>.</li>
 <li>Read and subscribe to <a href="http://blog.getbootstrap.com">The Official Bootstrap Blog</a>.</li>
-<li>Have a question that's not a feature request or bug report? <a href="http://groups.google.com/group/twitter-bootstrap">Ask on the mailing list.</a></li>
 <li>Chat with fellow Bootstrappers in IRC. On the <code>irc.freenode.net</code> server, in the <code>##twitter-bootstrap</code> channel.</li>
+<li>Implementation help may be found at Stack Overflow (tagged <a href="http://stackoverflow.com/questions/tagged/twitter-bootstrap-3"><code>twitter-bootstrap-3</code></a>).</li>
 </ul>
 
 <h2>Versioning</h2>
 
-<p>For transparency and insight into our release cycle, and for striving to maintain backward compatibility, Bootstrap will be maintained under the Semantic Versioning guidelines as much as possible.</p>
+<p>For transparency into our release cycle and in striving to maintain backward compatibility, Bootstrap is maintained under the Semantic Versioning guidelines. Sometimes we screw up, but we'll adhere to these rules whenever possible.</p>
 
 <p>Releases will be numbered with the following format:</p>
 
@@ -140,9 +154,9 @@
 <p>And constructed with the following guidelines:</p>
 
 <ul>
-<li>Breaking backward compatibility bumps the major (and resets the minor and patch)</li>
-<li>New additions without breaking backward compatibility bumps the minor (and resets the patch)</li>
-<li>Bug fixes and misc changes bumps the patch</li>
+<li>Breaking backward compatibility <strong>bumps the major</strong> while resetting minor and patch</li>
+<li>New additions without breaking backward compatibility <strong>bumps the minor</strong> while resetting the patch</li>
+<li>Bug fixes and misc changes <strong>bumps only the patch</strong></li>
 </ul>
 
 <p>For more information on SemVer, please visit <a href="http://semver.org/">http://semver.org/</a>.</p>
@@ -165,4 +179,4 @@
 
 <h2>Copyright and license</h2>
 
-<p>Copyright 2013 Twitter, Inc under <a href="LICENSE">the Apache 2.0 license</a>.</p>
+<p>Code and documentation copyright 2011-2014 Twitter, Inc. Code released under <a href="LICENSE">the MIT license</a>. Docs released under <a href="docs/LICENSE">Creative Commons</a>.</p>
