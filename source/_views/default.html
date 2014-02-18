@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ site.url }}/vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ site.url }}/vendor/bootstrap/dist/css/bootstrap-theme.min.css">
     <link href="{{ site.url }}/css/style.css" rel="stylesheet" type="text/css" />
     <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/atom.xml" title="{{ site.title }} activity feed" />
     {% block head %}{% endblock %}
@@ -14,7 +15,28 @@
     <div class="container">
         <header>
             {% block header %}
-            <h1><a href="{{ site.url }}/">{{ site.title }} <small>{{ site.subtitle }}</small></a></h1>
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="{{ site.url }}/" class="navbar-brand">{{ site.title }} {{ site.subtitle }}</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="{{ site.url }}/about">About</a></li>
+                            <li><a href="{{ site.url }}/blog">Blog</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
             {% endblock %}
         </header>
         {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
@@ -25,7 +47,7 @@
         <p class="text-muted">&copy; {{ "now"|date("Y") }} {{ site.title }} {{ site.author }}</p>
     </div>
 </footer>
-<script src="{{ site.url }}/vendor/jquery/jquery.min.js"></script>
+<script src="{{ site.url }}/vendor/jquery/dist/jquery.min.js"></script>
 <script src="{{ site.url }}/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
 {% block scripts %}{% endblock %}
 {% include 'includes/analytics.html' %}
