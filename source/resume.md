@@ -31,6 +31,7 @@ Listed tools and skills are those where I have expert-level proficiency and up-t
 * CSS
   1. [Sass](http://sass-lang.com)
   1. [Compass](http://compass-style.org)
+  1. [Bootstrap](http://getbootstrap.com)
 * Javascript
   1. [AngularJS](http://angularjs.org)
   1. [jQuery](http://jquery.com) and [jQuery UI](https://jqueryui.com)
