@@ -131,9 +131,10 @@ Drufony
 Castle
 : <http://bangpound.github.io/castle/>
 
-  Project to archive social media artifacts from public API endpoints. The application runs mulitple processes for
-  collecting from each social media service. Message queues (RabbitMQ) link the collection processes to the archive
-  (CouchDB) and the index (Elasticsearch). Faceted search UI is built with AngularJS.
+  Project to archive social media artifacts from public API endpoints (currently Twitter and Pubsub with Facebook and
+  Instagram planned). The application runs mulitple processes for collecting from each social media service. Message
+  queues (RabbitMQ) link the collection processes to the archive (CouchDB) and the index (Elasticsearch). Faceted
+  search UI is built with AngularJS.
 
 Drupal.org contributions
 : <https://drupal.org/user/100456>
