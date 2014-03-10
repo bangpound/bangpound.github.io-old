@@ -75,7 +75,7 @@ Palante Technology Cooperative
   management and growth of cooperative business.
 
 CivicActions
-: *engineer*
+: *technical lead engineer*
   __April 2010-March 2012__
 
   Develop large, custom web projects (Drupal 6 and 7, Ubercart, CiviCRM) that were managed in Scrum Agile software
