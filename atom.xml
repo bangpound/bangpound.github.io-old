@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title><![CDATA[!&amp;#]]></title>
-    <link href="http://bangpound.github.io/atom.xml" rel="self"/>
-    <link href="http://bangpound.github.io/"/>
-    <updated>2014-03-09T22:45:48+00:00</updated>
-    <id>http://bangpound.github.io/</id>
+    <link href="http://bangpound.org/atom.xml" rel="self"/>
+    <link href="http://bangpound.org/"/>
+    <updated>2014-03-24T14:58:34+00:00</updated>
+    <id>http://bangpound.org/</id>
             <author>
             <name><![CDATA[Benjamin Doherty]]></name>                    </author>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
             <title type="html"><![CDATA[MYTHLYEEN! joins the call to nominate Frameline for S.F. Pride&#039;s Pink Brick Award]]></title>
-            <link href="http://bangpound.github.io/blog/2014/02/10/Frameline"/>
+            <link href="http://bangpound.org/blog/2014/02/10/Frameline"/>
             <updated>2014-02-10T00:00:00+00:00</updated>
-            <id>http://bangpound.github.io/blog/2014/02/10/Frameline</id>
+            <id>http://bangpound.org/blog/2014/02/10/Frameline</id>
             <content type="html"><![CDATA[<p>FRAMELINE produces the San Francisco International LGBT Film Festival and their mission is "to change the world through the power of queer cinema" and yet...</p>
 
 <p><strong>FRAMELINE has unquestionably caused serious harm to the LGBTQI community and our movement for equality by continuing to partner with the Israeli government.</strong> FRAMELINE does this in the face of a clear demand from Palestinian queers and a growing movement that they stand up for justice for Palestinians, queer and straight. In fact, FRAMELINE projects the logo of the Israeli Consulate at every one of the several hundred screenings at the festival. <strong>Most recently, Frameline refused to meet with Arab queers to even discuss this issue.</strong></p>
@@ -43,9 +43,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[Pattern {P}³]]></title>
-            <link href="http://bangpound.github.io/blog/2014/01/19/Pattern-{P}^3"/>
+            <link href="http://bangpound.org/blog/2014/01/19/Pattern-{P}^3"/>
             <updated>2014-01-19T00:00:00+00:00</updated>
-            <id>http://bangpound.github.io/blog/2014/01/19/Pattern-{P}^3</id>
+            <id>http://bangpound.org/blog/2014/01/19/Pattern-{P}^3</id>
             <content type="html"><![CDATA[<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=http%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F84217154&src_secure=1&url=http%3A%2F%2Fvimeo.com%2F84217154&image=http%3A%2F%2Fb.vimeocdn.com%2Fts%2F460%2F991%2F460991058_1280.jpg&type=text%2Fhtml&schema=vimeo" width="700" height="394" scrolling="no" frameborder="0" allowfullscreen></iframe>
 
 <blockquote>
@@ -61,9 +61,9 @@
         </entry>
             <entry>
             <title type="html"><![CDATA[Drufony]]></title>
-            <link href="http://bangpound.github.io/blog/2014/01/14/drufony"/>
+            <link href="http://bangpound.org/blog/2014/01/14/drufony"/>
             <updated>2014-01-14T00:00:00+00:00</updated>
-            <id>http://bangpound.github.io/blog/2014/01/14/drufony</id>
+            <id>http://bangpound.org/blog/2014/01/14/drufony</id>
             <content type="html"><![CDATA[<blockquote class="twitter-tweet" lang="en"><p>Drufony is <a href="https://twitter.com/search?q=%23Drupal&amp;src=hash">#Drupal</a> 7 running in the <a href="https://twitter.com/search?q=%23Symfony&amp;src=hash">#Symfony</a> 2 framework. <a href="http://t.co/wo2KjvUCQV">http://t.co/wo2KjvUCQV</a></p>&mdash; Drufony (@Drufony) <a href="https://twitter.com/Drufony/statuses/422627353399808001">January 13, 2014</a></blockquote>
 
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

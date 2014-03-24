@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://bangpound.github.io</loc>
-    <lastmod>2014-03-10</lastmod>
+    <loc>http://bangpound.org</loc>
+    <lastmod>2014-03-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
     <url>
-    <loc>http://bangpound.github.io/blog/2014/02/10/Frameline</loc>
+    <loc>http://bangpound.org/blog/2014/02/10/Frameline</loc>
     <lastmod>2014-02-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>http://bangpound.github.io/blog/2014/01/19/Pattern-{P}^3</loc>
+    <loc>http://bangpound.org/blog/2014/01/19/Pattern-{P}^3</loc>
     <lastmod>2014-01-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
     <url>
-    <loc>http://bangpound.github.io/blog/2014/01/14/drufony</loc>
+    <loc>http://bangpound.org/blog/2014/01/14/drufony</loc>
     <lastmod>2014-01-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
